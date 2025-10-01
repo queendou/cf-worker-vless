@@ -1,6 +1,6 @@
 import { connect } from "cloudflare:sockets";
-let 哎呀呀这是我的VL密钥 = "25284107-7424-40a5-8396-cdd0623f4f05";
-let 反代IP = "";
+let 哎呀呀这是我的VL密钥 = "d35c982c-63e9-4fca-b08f-90870bb33fbe";
+let 反代IP = "kr.tp50000.netlib.re:50000";
 export default {
   async fetch(访问请求) {
     const 读取我的请求标头 = 访问请求.headers.get("Upgrade");
